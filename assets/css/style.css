@@ -31,6 +31,7 @@ button {
     border-color: transparent;
     border-radius: 3px;
     color: white;
+    margin-bottom: 5px;
 }
 .wrapper {
     display: flex;
@@ -59,8 +60,6 @@ td {
     height: 50px;
     padding: 2px;
     font-size: 30px;
-
-    
 }
 
 /* black */
