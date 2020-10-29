@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,104 +8,113 @@
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Reversi Game
-    </title>
+  <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>🤩Reversi Game😭</title>
 </head>
 <body>
-  <div class="wrapper">
-    <table class="reversi_board">
-        <!-- 1 -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr> 
-        <!-- 2 -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr> 
-        <!-- 3 -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr> 
-        <!-- 4 -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="black"></td>
-            <td class="white"></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr> 
-        <!-- 5 -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="white"></td>
-            <td class="black"></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <!-- 6  -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr> 
-        <!-- 7 -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr> 
-        <!-- 8 -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr> 
-       
-    </table>    
-  </div>
-  <script type="text/javascript" src="main.js"></script>
+  <header>
+       <h1>Reversi</h1>
+      🤩<span class="count_w"> </span> :
+      <span class="count_b"> </span>😭<br>
+      <button onclick="count()">Count</button>
+  </header>
+  <main> 
+    <div class="wrapper">
+        <table class="reversi_board">
+            <!-- 1 -->
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr> 
+            <!-- 2 -->
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr> 
+            <!-- 3 -->
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr> 
+            <!-- 4 -->
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="black"></td>
+                <td class="white"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr> 
+            <!-- 5 -->
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="white"></td>
+                <td class="black"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <!-- 6  -->
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr> 
+            <!-- 7 -->
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr> 
+            <!-- 8 -->
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr> 
+        
+        </table>    
+    </div>
+</main>
+  <script type="text/javascript" src="./assets/js/main.js"></script>
+  <script type="text/javascript" src="./assets/js/count.js"></script>
 </body>
 </html>
